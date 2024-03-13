@@ -590,7 +590,7 @@ background-color: #1d9df0;
     color: var(--main-color);
 }
 /* home aside styling end */
-/* /cookie start/ */
+/cookie start/
 .cookie-alert {
     position: fixed;
     bottom: 0;
@@ -603,6 +603,11 @@ background-color: #1d9df0;
     transition: all 500ms ease-out;
     left: 0;
 }
+.cookie-alert .btn {
+    color: #fff;
+    background-color: #900a2d;
+    border-color: #ffffff;
+}
 
 .cookie-alert.show {
     opacity: 1;
@@ -610,11 +615,4 @@ background-color: #1d9df0;
     transition-delay: 1000ms;
 }
 
-a.btn.btn-primary.accept-cookies {
-    background: var(--main-color);
-    padding: 6px 22px;
-    font-size: 20px;
-    border: 1px solid var(--main-color);
-}
-
-/* /cookie end/ */
+/cookie end/
