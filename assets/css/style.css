@@ -605,7 +605,7 @@ background-color: #1d9df0;
 }
 .cookie-alert .btn {
     color: #fff;
-    background-color: #900a2d;
+    background-color: var(--main-color);
     border-color: #ffffff;
 }
 
