@@ -32,8 +32,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
                 <div class="nav-title">
-                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt=""
-                        class="img-fluid"></a>
+                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="" class="img-fluid"></a>
                 </div>
             </div>
             <div class="nav-btn">
@@ -47,7 +46,7 @@
                 <li><a href="casinohotel.html">Casinohotel</a></li>
                 <li><a href="dineren.html">dineren</a></li>
                 <li><a href="Aankomende-evenementen.html">Aankomende-evenementen</a></li>
-                
+
             </ul>
         </nav>
     </header>
@@ -57,9 +56,9 @@
         <div class="container">
             <div class="sub_banner_content text-center">
                 <div class="container">
-                       <h1>Casinohotel</h1>
+                    <h1>Casinohotel</h1>
                 </div>
-             
+
 
             </div>
         </div>
@@ -71,12 +70,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="left_side_ab">
-                        <p>We zijn blij u een exclusieve uitnodiging te kunnen sturen om onze aanbeveling over het Casino Hotel
+                        <p>We zijn blij u een exclusieve uitnodiging te kunnen sturen om onze aanbeveling over het
+                            Casino Hotel
                             in Nederland te bezoeken. Al deze aanbevelingen combineren de glamour van een casino van
                             wereldklasse met het luxueuze comfort van een premium hotel. Vanaf het moment dat u de deur
                             binnenstapt, kunt u zich voorbereiden op een onderdompeling in een sfeer van verfijning,
                             entertainment en ongeëvenaarde gastvrijheid</p>
-                           
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -93,8 +93,8 @@
 
 
 
-   <!-- why choose section -->
-   <!-- <div class="why_choose section">
+    <!-- why choose section -->
+    <!-- <div class="why_choose section">
     <div class="container">
         <div class="row">
             <div class="col text-center mb-5">
@@ -166,7 +166,8 @@
             <div class="row">
                 <div class="col text-center">
                     <p>Bij bestecasinonl.com geven we zoveel om u dat we onze aanbeveling over het meest unieke Casino
-                        Hotel zorgvuldig selecteren. Wij helpen u te ontspannen en te genieten van uw game-ervaring.!</p>
+                        Hotel zorgvuldig selecteren. Wij helpen u te ontspannen en te genieten van uw game-ervaring.!
+                    </p>
 
                 </div>
             </div>
@@ -180,7 +181,7 @@
                     <div class="col-12 col-xl-3">
                         <div class="footer_left">
                             <a href="./index.html" class="logo"><img src="./assets/images/logon4.png" alt=""
-                                class="img-fluid"></a>
+                                    class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-12 col-xl-9">
@@ -218,11 +219,86 @@
             </div>
         </div>
     </div>
+    <!--cookies start -->
 
+    <div class="card cookie-alert">
+
+        <div class="card-body p-5">
+
+            <h4>Σημείωση cookie</h4>
+
+            <p>Για να βελτιώσουμε την εμπειρία σας και να παρέχουμε εξατομικευμένο περιεχόμενο, ο
+                ιστότοπός μας χρησιμοποιεί cookies. Αυτά τα μικρά αρχεία κειμένου αποθηκεύονται στη
+                συσκευή σας και μας βοηθούν να θυμόμαστε τις προτιμήσεις σας, να αναλύουμε την
+                επισκεψιμότητα του ιστότοπου και να βελτιώνουμε τη συνολική λειτουργικότητα.
+                Συνεχίζοντας την περιήγηση στον ιστότοπό μας συμφωνείτε με τη χρήση των cookies. Να
+                είστε σίγουροι ότι οι πληροφορίες που συλλέγονται χρησιμοποιούνται μόνο για τη βελτίωση
+                της εμπειρίας σας και δεν κοινοποιούνται σε τρίτους.
+
+            </p>
+
+            <div class="btn-toolbar justify-content-end">
+
+
+
+
+                <a href="#" class="btn btn-primary accept-cookies">Αποδέχομαι</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--cookies end -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script>
+        (function () {
+            "use strict";
+            var cookieAlert = document.querySelector(".cookie-alert");
+            var acceptCookies = document.querySelector(".accept-cookies");
+            cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+            if (!getCookie("acceptCookies")) {
+                cookieAlert.classList.add("show");
 
+            }
+            acceptCookies.addEventListener("click", function () {
+                setCookie("acceptCookies", true, 60);
+                cookieAlert.classList.remove("show");
+            });
+        })();
+
+        // Cookie functions stolen from w3schools
+        function setCookie(cname, cvalue, exdays) {
+
+            var d = new Date();
+
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+
+            var expires = "expires=" + d.toUTCString();
+
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+        }
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+    </script>
 </body>
 
 </html>
