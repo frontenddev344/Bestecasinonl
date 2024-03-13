@@ -569,7 +569,17 @@ background-color: #1d9df0;
 	padding: 40px;
 	border-radius: 5px;
 }
-
+/* home aside styling */
+.events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box img {
+    width: 120px;
+}
+/* home aside styling end */
 /* /cookie start/ */
 .cookie-alert {
     position: fixed;
