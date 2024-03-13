@@ -368,7 +368,7 @@ footer .footer_rightul li a {
 }
 
 .lower_footer p {
-	color: var(--font-color);
+	color: #fff;
 	text-transform: capitalize;
 	font-weight: 500;
 	font-size: 14px;
