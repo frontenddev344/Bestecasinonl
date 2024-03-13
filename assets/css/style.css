@@ -581,6 +581,13 @@ background-color: #1d9df0;
 .box img {
     width: 120px;
 }
+.row.upcoming_events {
+    border-left: 2px solid var(--main-color);
+    padding-left: 40px;
+}
+.row.upcoming_events h3 {
+    color: var(--main-color);
+}
 /* home aside styling end */
 /* /cookie start/ */
 .cookie-alert {
