@@ -584,6 +584,7 @@ background-color: #1d9df0;
 .row.upcoming_events {
     border-left: 2px solid var(--main-color);
     padding-left: 40px;
+	margin-left: 20px;
 }
 .row.upcoming_events h3 {
     color: var(--main-color);
