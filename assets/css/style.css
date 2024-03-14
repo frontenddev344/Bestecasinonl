@@ -561,6 +561,9 @@ input.form-control.sub_btn:hover {
 .box img {
     width: 120px;
 }
+.box2 h4 {
+    font-size: 18px;
+}
 .row.upcoming_events {
     border-left: 2px solid var(--main-color);
     padding-left: 40px;
