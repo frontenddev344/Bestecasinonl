@@ -147,7 +147,9 @@
 	.content_card ul {
 		display: block;
 	}
-	
+	.section {
+		padding: 20px 0;
+	}
 	
 }
 
