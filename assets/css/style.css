@@ -81,7 +81,10 @@ p {
 	color: var(--font-color);
 	line-height: 28px;
 }
-
+h5.special {
+    font-size: 30px;
+    color:var(--main-color);
+}
 .page_home_banner img {
 	height: 700px !important;
 }
