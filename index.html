@@ -71,7 +71,8 @@
                 <div class="col-lg-8">
                     <div class="left_side_ab">
                         <img src="assets/images/homeaside.jpg" alt="" class="img-fluid">
-                        <p class="mt-3">We zijn blij u een exclusieve uitnodiging te kunnen sturen om onze aanbeveling over het
+                        <p class="mt-3">We zijn blij u een exclusieve uitnodiging te kunnen sturen om onze aanbeveling
+                            over het
                             Casino Hotel
                             in Nederland te bezoeken. Al deze aanbevelingen combineren de glamour van een casino van
                             wereldklasse met het luxueuze comfort van een premium hotel. Vanaf het moment dat u de deur
@@ -224,24 +225,24 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single_footer single_footer_address">
                         <h4>
-                            Σύνδεσμος σελίδας</h4>
+
+                            PAGINA LINK</h4>
                         <ul>
-                            <li>
-                                <a href="hotel.html">Ξενοδοχεία</a>
-                            </li>
-                            <li> <a href="game.html"> Παιχνίδι</a></li>
-                            <li><a href="resorts.html">Θέρετρα</a> </li>
-                            <li><a href="aboutus.html">Σχετικά με</a></li>
-                            <li><a href="privacy.html"> Πολιτική απορρήτου</a></li>
-                            <li><a href="terms.html">Οροι και Προϋποθέσεις</a></li>
+                            <li><a href="casinohotel.html">Casinohotel</a></li>
+                            <li><a href="dineren.html">dineren</a></li>
+                            <li><a href="Aankomende-evenementen.html">Aankomende-evenementen</a></li>
+                            <li><a href="privacy_policy.html">Privacy policy</a></li>
+                            <li><a href="terms_and_conditions.html">Terms and Conditions</a></li>
+                            <li><a href="contactus.html">Neem contact met ons op</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="single_footer single_footer_address">
-                        <h4>Επικοινωνήστε μαζί μας</h4>
+                        <h4>Om meer te weten
+                        </h4>
                         <div class="email">
-                            <p>ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ:
+                            <p>E-MAIL:
                             </p>
                             <ul>
                                 <li>
@@ -289,7 +290,8 @@
     <div class="card cookie-alert show">
         <div class="card-body p-5">
 
-            <p class="card-text">Wij gebruiken cookies om uw surfervaring te verbeteren. Dit zijn kleine tekstbestanden die op uw
+            <p class="card-text">Wij gebruiken cookies om uw surfervaring te verbeteren. Dit zijn kleine tekstbestanden
+                die op uw
                 systeem worden bewaard. Door verder te surfen op onze website geeft u toestemming voor het
                 gebruik van cookies. U kunt uw cookie-keuzes wijzigen in uw browserinstellingen. Lees ons
                 privacybeleid voor meer informatie.</p>
@@ -306,47 +308,47 @@
     <script src="assets/js/script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script>
-         (function () {
-      "use strict";
-   
-      var cookieAlert = document.querySelector(".cookie-alert");
-      var acceptCookies = document.querySelector(".accept-cookies");
-   
-      cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
-   
-      if (!getCookie("acceptCookies")) {
-          cookieAlert.classList.add("show");
-      }
-   
-      acceptCookies.addEventListener("click", function () {
-          setCookie("acceptCookies", true, 60);
-          cookieAlert.classList.remove("show");
-      });
-   })();
-   
-   // Cookie functions stolen from w3schools
-   function setCookie(cname, cvalue, exdays) {
-      var d = new Date();
-      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-      var expires = "expires=" + d.toUTCString();
-      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-   }
-   
-   function getCookie(cname) {
-      var name = cname + "=";
-      var decodedCookie = decodeURIComponent(document.cookie);
-      var ca = decodedCookie.split(';');
-      for (var i = 0; i < ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0) === ' ') {
-              c = c.substring(1);
-          }
-          if (c.indexOf(name) === 0) {
-              return c.substring(name.length, c.length);
-          }
-      }
-      return "";
-   }
+        (function () {
+            "use strict";
+
+            var cookieAlert = document.querySelector(".cookie-alert");
+            var acceptCookies = document.querySelector(".accept-cookies");
+
+            cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+            if (!getCookie("acceptCookies")) {
+                cookieAlert.classList.add("show");
+            }
+
+            acceptCookies.addEventListener("click", function () {
+                setCookie("acceptCookies", true, 60);
+                cookieAlert.classList.remove("show");
+            });
+        })();
+
+        // Cookie functions stolen from w3schools
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
 
     </script>
 </body>
