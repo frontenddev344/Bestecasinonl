@@ -67,11 +67,11 @@
 	}
 
 	.nav>.nav-btn>label>span {
-	display: block;
-    width: 30px;
-    height: 10px;
-    border-top: 2px solid #e9b947;
-    filter: invert(1);
+		display: block;
+		width: 30px;
+		height: 10px;
+		border-top: 2px solid #e9b947;
+		filter: invert(1);
 	}
 
 	.nav>.nav-list {
@@ -125,6 +125,7 @@
 		margin-right: 0;
 	}
 
+
 }
 
 @media (max-width: 767px) {
@@ -132,6 +133,7 @@
 	a.logo img {
 		max-width: 160px;
 	}
+
 	.footer_left a img {
 		max-width: 160px;
 	}
@@ -151,13 +153,20 @@
 	h3 {
 		font-size: 22px;
 	}
+
 	.sub_banner_content {
 		padding: 0px 16px;
 	}
+
 	.content_card ul {
-		display: block;;
+		display: block;
+		;
 	}
 
+	.copyright {
+		margin-top: 20px;
+		padding-top: 20px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -172,8 +181,9 @@
 		justify-content: center;
 		margin-top: 20px;
 	}
-	.luxury_hotels_inner img{
+
+	.luxury_hotels_inner img {
 		padding: 10px;
-		}
-		
+	}
+
 }
