@@ -110,6 +110,10 @@
 	header {
 		padding: 0px 0px;
 	}
+	.copyright {
+		margin-top: 20px;
+		padding-top: 20px;
+	}
 
 }
 
@@ -141,10 +145,7 @@
 	.content_card ul {
 		display: block;
 	}
-	.copyright {
-		margin-top: 20px;
-		padding-top: 20px;
-	}
+	
 	.footer {
 		padding: 20px 0;
 	}
