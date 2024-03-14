@@ -636,9 +636,6 @@ a:focus {
 }
 
 .footer {
-    background-image: url(../img/footerbg.jpg);
-    background-position: center;
-    background-size: cover;
     padding: 40px 0;
 }
 
@@ -649,7 +646,7 @@ a:focus {
 
 
 .single_footer h4 {
-    color: #fff;
+    color:var(--font-color);
     margin-top: 0;
     margin-bottom: 25px;
     font-weight: 700;
@@ -680,12 +677,12 @@ a:focus {
 
 .single_footer ul li {
     font-weight: 400;
-    color: #fff;
+    color: var(--secondary-color);
     line-height: 28px;
 }
 
 .single_footer ul li a {
-    color: #fff;
+    color: var(--font-color);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     line-height: 28px;
