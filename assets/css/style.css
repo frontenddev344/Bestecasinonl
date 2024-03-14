@@ -568,6 +568,8 @@ input.form-control.sub_btn:hover {
 }
 .row.upcoming_events h3 {
     color: var(--main-color);
+	font-size: 35px;
+	margin-top: 20px;
 }
 /* home aside styling end */
 /* /cookie start/ */
