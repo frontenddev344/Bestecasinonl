@@ -814,14 +814,14 @@ a:focus {
 .copyright {
     margin-top: 70px;
     padding-top: 40px;
-    color: #fff;
+    color:var(--main-color);
     font-size: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: 1px solid var(--main-color);
     text-align: center;
 }
 
 .copyright a {
-    color: #fff;
+    color: var(--font-color);
     transition: all 0.2s ease 0s;
 }
 
