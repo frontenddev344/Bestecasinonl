@@ -665,8 +665,8 @@ a:focus {
     content: "";
     display: block;
     height: 2px;
-    width: 40px;
-    background: #fff;
+    width: 80px;
+    background: var(--main-color);
     margin-top: 20px;
 }
 
