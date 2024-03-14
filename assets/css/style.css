@@ -537,7 +537,8 @@ input.form-control.sub_btn:hover {
 }
 
 .about_us a {
-	color: #222222;
+	color: #000;
+    font-weight: 700;
 }
 
 .contact_us.section {
