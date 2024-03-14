@@ -165,5 +165,8 @@
 		padding-left: 20px;
 		margin-left: 20px;
 	}
+	.row.upcoming_events h3 {
+		font-size: 28px;
+	}
 
 }
