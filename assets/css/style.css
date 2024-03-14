@@ -511,7 +511,9 @@ input.form-control.sub_btn:hover {
 	max-width: 180px;
 
 }
-
+.about_us.section {
+	background: whitesmoke;
+}
 .after_banner_section.section {
 	background: whitesmoke;
 }
