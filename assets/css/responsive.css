@@ -111,21 +111,6 @@
 		padding: 0px 0px;
 	}
 
-
-	.top_footer {
-		text-align: center;
-	}
-
-	.footer_left ul {
-		display: block;
-	}
-
-	.footer_left ul li {
-		margin-bottom: 20px;
-		margin-right: 0;
-	}
-
-
 }
 
 @media (max-width: 767px) {
@@ -133,11 +118,6 @@
 	a.logo img {
 		max-width: 160px;
 	}
-
-	.footer_left a img {
-		max-width: 160px;
-	}
-
 	.nav-title a svg {
 		width: 190px;
 	}
@@ -163,27 +143,11 @@
 		;
 	}
 
-	.copyright {
-		margin-top: 20px;
-		padding-top: 20px;
-	}
 }
 
 @media (max-width: 575px) {
-
-	.footer_right {
-		display: block;
-		text-align: center;
-	}
-
-	.footer_right ul {
-		margin-bottom: 0;
-		justify-content: center;
-		margin-top: 20px;
-	}
-
-	.luxury_hotels_inner img {
-		padding: 10px;
+	.footer {
+		padding: 20px 0;
 	}
 
 }
