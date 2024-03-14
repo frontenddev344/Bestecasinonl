@@ -114,7 +114,9 @@
 		margin-top: 20px;
 		padding-top: 20px;
 	}
-
+	.footer {
+		padding: 20px 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -146,9 +148,7 @@
 		display: block;
 	}
 	
-	.footer {
-		padding: 20px 0;
-	}
+	
 }
 
 @media (max-width: 575px) {
