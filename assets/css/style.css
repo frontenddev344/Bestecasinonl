@@ -725,7 +725,6 @@ a:focus {
     align-items: center;
 }
 
-
 .social_profile ul li a:hover {
     background: #fff;
     border: 2px solid var(--main-color);
