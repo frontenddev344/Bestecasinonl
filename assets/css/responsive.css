@@ -158,6 +158,8 @@
 }
 
 @media (max-width: 575px) {
-	
+	.box img {
+		width: 90px;
+	}
 
 }
