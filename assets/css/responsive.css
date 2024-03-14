@@ -161,5 +161,9 @@
 	.box img {
 		width: 90px;
 	}
+	.row.upcoming_events {
+		padding-left: 20px;
+		margin-left: 20px;
+	}
 
 }
