@@ -194,7 +194,7 @@ header {
 	color: var(--font-color);
 }
 .home_page_banner1 img {
-    height: 600px;
+    height: 600px !important;
 }
 .sub_banner img {
 	width: 100%;
