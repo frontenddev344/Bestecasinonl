@@ -563,6 +563,7 @@ input.form-control.sub_btn:hover {
 }
 .box2 h4 {
     font-size: 18px;
+	margin-bottom: 2px;
 }
 .row.upcoming_events {
     border-left: 2px solid var(--main-color);
