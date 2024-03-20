@@ -168,5 +168,7 @@
 	.row.upcoming_events h3 {
 		font-size: 28px;
 	}
-
+	.after_banner_section.section_contact {
+		padding: 40px 0;
+		}
 }
