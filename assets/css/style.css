@@ -793,3 +793,10 @@ a:focus {
 }
 
 /* footer styling end */
+/* below_pra styling start */
+.below_paragraph {
+    padding: 80px 0;
+    text-align: center;
+	background-color: var(--bg-light);
+}
+/* below_pra styling end */
