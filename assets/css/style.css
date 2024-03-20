@@ -800,3 +800,6 @@ a:focus {
 	background-color: var(--bg-light);
 }
 /* below_pra styling end */
+.after_banner_section.section_contact {
+padding: 80px 0;
+}
